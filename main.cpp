@@ -120,7 +120,9 @@ float FloatType::divide(float lhs, float rhs)
 {
     if (rhs == 0.0f)
     {
+        std::cout << "\n";
         std::cout << "warning, floating point division by zero returns 'inf' !";
+        std::cout << "\n";
     }
     return lhs / rhs;
 }
@@ -152,7 +154,9 @@ double DoubleType::divide(double lhs, double rhs)
 {
     if (rhs == 0.0)
     {
+        std::cout << "\n";
         std::cout << "warning, floating point division by zero returns 'inf' !";
+        std::cout << "\n";
     }
     return lhs / rhs;
 }
